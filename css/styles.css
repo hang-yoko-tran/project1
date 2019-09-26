@@ -1,96 +1,177 @@
-.four-retail-outlets{
-    width: 100%;
-    height: 916px;
+.four-retail-outlets {
+  width: 100%;
+  height: 916px;
 }
 
-
-.four-para-raintree{
-    color:#767676;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 18px;
-    letter-spacing: .5px;
-    line-height: 1.6em;
+.four-para-raintree {
+  color: #767676;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.6em;
 }
 
-.four-readmore{
-    color:black;
-    width: 183px;
-    height: 65px;
-    font-size: 15px;
-    font-weight: 15px;
-    border:2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.four-readmore {
+  color: black;
+  width: 183px;
+  height: 65px;
+  font-size: 15px;
+  font-weight: 15px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.four-readmore:hover{
-    background-color: black;
-    color: white;
+.four-readmore:hover {
+  background-color: black;
+  color: white;
 }
 
-.four-request-viewing{
-    color:black;
-    width: 240px;
-    height: 65px;
-    font-size: 15px;
-    font-weight: 15px;
-    border:2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.four-request-viewing {
+  color: black;
+  width: 240px;
+  height: 65px;
+  font-size: 15px;
+  font-weight: 15px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.four-request-viewing:hover{
-    background-color: black;
-    color: white;
+.four-request-viewing:hover {
+  background-color: black;
+  color: white;
 }
 
-.four-para-readmore{
-    color:#BCBCBC;
-    cursor: pointer;
-    text-decoration: none;
+.four-para-readmore {
+  color: #bcbcbc;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.four-img-tree{
-    width: 679px;
-    height: 452px;
+.four-img-tree {
+  width: 679px;
+  height: 452px;
 }
 
-.four-para-find-us{
-    cursor: pointer;
-    color:#76767661;
+.four-para-find-us {
+  cursor: pointer;
+  color: #76767661;
 }
-.four-googlemap-here{
-    color: #8F8F8F;
-    cursor: pointer;
-}
-
-.four-subcrible{
-    background-color: black;
-    color:white;
-    width: 171px;
-    height: 43px;
-    font-size: 15px;
-    font-weight: 15px;
-    border:2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.four-googlemap-here {
+  color: #8f8f8f;
+  cursor: pointer;
 }
 
-.four-subcrible:hover{
-    background-color: rgba(31,31,31,.81);
-    color: white;
+.four-subcrible {
+  background-color: black;
+  color: white;
+  width: 171px;
+  height: 43px;
+  font-size: 15px;
+  font-weight: 15px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.four-social-media{
-    font-size:20pt;
+.four-subcrible:hover {
+  background-color: rgba(31, 31, 31, 0.81);
+  color: white;
 }
 
+.four-social-media {
+  font-size: 20pt;
+}
 
-.four-img-map{
-    width:493px;
-    height: 468px;
+.four-img-map {
+  width: 493px;
+  height: 468px;
+}
+
+header {
+  background-image: url(../img/header_image.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 719.8px;
+}
+
+nav {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-left: 5px;
+  padding: 15px !important;
+}
+
+.one-navbar-ul {
+  font-size: 14px;
+}
+
+.one-navbar-ul a {
+  color: white !important;
+  /* font-family: europa; */
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1em;
+}
+.one-navbar-ul a:hover {
+  color: #9c9999 !important;
+}
+
+.one-color-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(33, 27, 23, 0.58);
+  z-index: 99;
+}
+
+.one-desc-wrapper {
+  animation: feature-text-anim 0.75s ease-in-out;
+  z-index: 100;
+  position: relative;
+  width: 100%;
+  max-width: 956px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 32px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  margin-top: 120px;
+}
+
+.one-desc-wrapper p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  color: #b8b8b8;
+  margin: 20px auto;
+}
+
+.one-desc-wrapper p strong {
+  display: block;
+  /* font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-weight: 100;
+  font-style: normal;
+  font-size: 86px;
+  letter-spacing: 0px;
+  text-transform: none;
+  line-height: 1.1em;
+  color: #fff;
 }
