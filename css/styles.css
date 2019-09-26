@@ -1,0 +1,96 @@
+.four-retail-outlets{
+    width: 100%;
+    height: 916px;
+}
+
+
+.four-para-raintree{
+    color:#767676;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 1.6em;
+}
+
+.four-readmore{
+    color:black;
+    width: 183px;
+    height: 65px;
+    font-size: 15px;
+    font-weight: 15px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-readmore:hover{
+    background-color: black;
+    color: white;
+}
+
+.four-request-viewing{
+    color:black;
+    width: 240px;
+    height: 65px;
+    font-size: 15px;
+    font-weight: 15px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-request-viewing:hover{
+    background-color: black;
+    color: white;
+}
+
+.four-para-readmore{
+    color:#BCBCBC;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.four-img-tree{
+    width: 679px;
+    height: 452px;
+}
+
+.four-para-find-us{
+    cursor: pointer;
+    color:#76767661;
+}
+.four-googlemap-here{
+    color: #8F8F8F;
+    cursor: pointer;
+}
+
+.four-subcrible{
+    background-color: black;
+    color:white;
+    width: 171px;
+    height: 43px;
+    font-size: 15px;
+    font-weight: 15px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-subcrible:hover{
+    background-color: rgba(31,31,31,.81);
+    color: white;
+}
+
+.four-social-media{
+    font-size:20pt;
+}
+
+
+.four-img-map{
+    width:493px;
+    height: 468px;
+}
