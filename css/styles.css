@@ -323,13 +323,7 @@ nav {
 
 .three-card {
   min-height: 60%;
-  padding: 20px 15px 20px 15px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.three-photo {
-  margin-top: 7%;
+  padding: 10px 10px 10px 10px;
 }
 
 .find-us {
@@ -355,4 +349,8 @@ nav {
   padding: 32px;
   text-align: center;
   text-rendering: optimizeLegibility;
+}
 
+.three-card card {
+  margin: 3px;
+}
