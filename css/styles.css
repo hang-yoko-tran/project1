@@ -1,3 +1,97 @@
+.two-creative{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.two-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 844px;
+}
+
+.two-all-cards{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.two-cards{
+  width: 1024px;
+}
+
+.two-card{
+  text-align: center;
+  border: none;
+}
+
+.two-cards button {
+  width: 257px;
+  height: 66px;
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+footer{
+  background: #2F373D;
+  height: 367px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer i {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 60px;
+}
+
+.two-foot-button{
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.two-foot-button-custome{
+  width: 178px;
+  height: 44px;
+  background-color: black
+}
+
+.two-foot-address{
+  color: #848484;
+  margin-top:30px;
+}
+
+.two-separator-line {
+	display: inline-block;
+    height: 16px;
+    width: 1px;
+    background: currentColor;
+    margin: auto 20px;
+}
+
+ul {
+  list-style-type: none;
+  color: white;
+}
+
+.two-contact{
+  display: flex;
+  flex-direction: row;
+  color: #848484
+}
+
+.two-contact li a{
+  color:  #848484;
+}
+
 .four-retail-outlets {
   width: 100%;
   height: 916px;
