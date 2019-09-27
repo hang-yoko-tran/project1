@@ -121,6 +121,7 @@ ul {
 .four-readmore:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 
 .four-request-viewing {
@@ -138,6 +139,7 @@ ul {
 .four-request-viewing:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 
 .four-para-readmore {
@@ -176,6 +178,7 @@ ul {
 .four-subcrible:hover {
   background-color: rgba(31, 31, 31, 0.81);
   color: white;
+  cursor: pointer;
 }
 
 .four-social-media {
