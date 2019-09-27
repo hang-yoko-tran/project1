@@ -1,3 +1,6 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
 .two-creative {
   display: flex;
   justify-content: center;
@@ -50,6 +53,7 @@ footer i {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 60px;
+  cursor: pointer;
 }
 
 .two-foot-button {
@@ -292,7 +296,6 @@ nav {
 }
 .three-p {
   text-align: center;
-  font-family: futura-pt;
   font-weight: 400;
   font-style: normal;
   font-size: 28px;
@@ -317,4 +320,25 @@ nav {
 
 .find-us {
   margin-bottom: 40px;
+}
+.three-color-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(33, 27, 23, 0.58);
+  z-index: 99;
+}
+
+.three-text {
+  z-index: 100;
+  position: relative;
+  width: 100%;
+  max-width: 956px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 32px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
 }
