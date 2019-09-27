@@ -98,8 +98,9 @@ ul {
 
 .four-retail-outlets {
   width: 100%;
-  height: 916px;
+  min-height: 916px;
 }
+
 
 .four-para-raintree {
   color: #767676;
@@ -151,6 +152,7 @@ ul {
   cursor: pointer;
   text-decoration: none;
 }
+
 
 .four-img-tree {
   width: 679px;
