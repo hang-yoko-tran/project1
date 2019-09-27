@@ -1,11 +1,11 @@
-.two-creative{
+.two-creative {
   display: flex;
   justify-content: center;
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.two-content{
+.two-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,17 +14,17 @@
   width: 844px;
 }
 
-.two-all-cards{
+.two-all-cards {
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
 }
 
-.two-cards{
+.two-cards {
   width: 1024px;
 }
 
-.two-card{
+.two-card {
   text-align: center;
   border: none;
 }
@@ -36,8 +36,8 @@
   border: 2px solid black;
 }
 
-footer{
-  background: #2F373D;
+footer {
+  background: #2f373d;
   height: 367px;
   display: flex;
   align-items: center;
@@ -52,29 +52,29 @@ footer i {
   margin-top: 60px;
 }
 
-.two-foot-button{
-  display:flex;
+.two-foot-button {
+  display: flex;
   justify-content: center;
   margin-top: 50px;
 }
 
-.two-foot-button-custome{
+.two-foot-button-custome {
   width: 178px;
   height: 44px;
-  background-color: black
+  background-color: black;
 }
 
-.two-foot-address{
+.two-foot-address {
   color: #848484;
-  margin-top:30px;
+  margin-top: 30px;
 }
 
 .two-separator-line {
-	display: inline-block;
-    height: 16px;
-    width: 1px;
-    background: currentColor;
-    margin: auto 20px;
+  display: inline-block;
+  height: 16px;
+  width: 1px;
+  background: currentColor;
+  margin: auto 20px;
 }
 
 ul {
@@ -82,14 +82,14 @@ ul {
   color: white;
 }
 
-.two-contact{
+.two-contact {
   display: flex;
   flex-direction: row;
-  color: #848484
+  color: #848484;
 }
 
-.two-contact li a{
-  color:  #848484;
+.two-contact li a {
+  color: #848484;
 }
 
 .four-retail-outlets {
@@ -272,3 +272,46 @@ nav {
   line-height: 1.1em;
   color: #fff;
 }
+
+/* phong */
+.three-jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three-h {
+  text-align: center;
+  font-family: europa, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 86px;
+  letter-spacing: 0px;
+  text-transform: none;
+  line-height: 1.1em;
+  color: #fff;
+}
+.three-p {
+  text-align: center;
+  font-family: futura-pt;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  color: #b8b8b8;
+  margin: 20px auto;
+}
+.three-mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
