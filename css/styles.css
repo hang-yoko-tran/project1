@@ -315,3 +315,14 @@ nav {
   margin-bottom: 50px;
 }
 
+.three-card {
+  min-height: 60%;
+  padding: 20px 15px 20px 15px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid red;
+}
+
+.three-photo {
+  margin-top: 7%;
+}
