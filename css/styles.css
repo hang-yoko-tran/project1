@@ -320,6 +320,18 @@ nav {
   margin-bottom: 50px;
 }
 
+
+.three-card {
+  min-height: 60%;
+  padding: 20px 15px 20px 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.three-photo {
+  margin-top: 7%;
+}
+
 .find-us {
   margin-bottom: 40px;
 }
@@ -343,4 +355,4 @@ nav {
   padding: 32px;
   text-align: center;
   text-rendering: optimizeLegibility;
-}
+
