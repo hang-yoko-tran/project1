@@ -46,6 +46,7 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 footer i {
@@ -55,6 +56,22 @@ footer i {
   margin-right: 10px;
   margin-top: 60px;
   cursor: pointer;
+}
+
+footer a {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 60px;
+  cursor: pointer;
+  color: #848484;
+}
+footer a:hover {
+  color: #848484;
+}
+
+footer b {
+  color: #848484;
 }
 
 .two-foot-button {
@@ -82,18 +99,9 @@ footer i {
   margin: auto 20px;
 }
 
-ul {
-  list-style-type: none;
-  color: white;
-}
-
 .two-contact {
   display: flex;
   flex-direction: row;
-  color: #848484;
-}
-
-.two-contact li a {
   color: #848484;
 }
 
@@ -257,8 +265,18 @@ ul {
   text-rendering: optimizeLegibility;
 }
 
-.three-card card {
+.three-card .row {
+  margin: 0 !important;
+}
+.three-card .card {
   margin: 3px;
+  border: none;
+  border-radius: 0 !important;
+  overflow: hidden;
+}
+
+.three-card a {
+  color: black;
 }
 
 .three-color-overlay {
@@ -351,7 +369,6 @@ nav {
 }
 
 .one-desc-wrapper {
-  /* animation: feature-text-anim 0.75s ease-in-out; */
   z-index: 0;
   position: relative;
   width: 100%;
@@ -381,4 +398,40 @@ nav {
   text-transform: none;
   line-height: 1.1em;
   color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: 40vh;
+  }
+  .one-desc-wrapper p strong {
+    font-size: 20px;
+  }
+  .three-mid {
+    height: 175px;
+  }
+  .three-text {
+    padding: 0;
+  }
+  .jumbotron {
+    padding: 0 !important;
+  }
+  .three-h {
+    font-size: 30px;
+  }
+  .three-p {
+    font-size: 14px;
+  }
+  .card-title {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .card p {
+    font-size: 10px;
+  }
+
+  .col-6,
+  .col-sm-6 {
+    margin-bottom: 10px !important;
+  }
 }
