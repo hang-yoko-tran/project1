@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
 .two-creative {
   display: flex;
   justify-content: center;
@@ -98,9 +99,7 @@ ul {
 
 .four-retail-outlets {
   width: 100%;
-  min-height: 916px;
 }
-
 
 .four-para-raintree {
   color: #767676;
@@ -153,7 +152,6 @@ ul {
   text-decoration: none;
 }
 
-
 .four-img-tree {
   width: 679px;
   height: 452px;
@@ -196,89 +194,6 @@ ul {
   height: 468px;
 }
 
-header {
-  background-image: url(../img/header_image.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 719.8px;
-}
-
-nav {
-  position: absolute;
-  z-index: 100;
-  top: 0;
-  right: 0;
-  left: 0;
-  margin-left: 5px;
-  padding: 15px !important;
-}
-
-.one-navbar-ul {
-  font-size: 14px;
-}
-
-.one-navbar-ul a {
-  color: white !important;
-  /* font-family: europa; */
-  font-weight: 300;
-  font-style: normal;
-  font-size: 13px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-decoration: none;
-  line-height: 1em;
-}
-.one-navbar-ul a:hover {
-  color: #9c9999 !important;
-}
-
-.one-color-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(33, 27, 23, 0.58);
-  z-index: 99;
-}
-
-.one-desc-wrapper {
-  animation: feature-text-anim 0.75s ease-in-out;
-  z-index: 100;
-  position: relative;
-  width: 100%;
-  max-width: 956px;
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 32px;
-  text-align: center;
-  text-rendering: optimizeLegibility;
-  margin-top: 120px;
-}
-
-.one-desc-wrapper p {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 28px;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  line-height: 1.3em;
-  color: #b8b8b8;
-  margin: 20px auto;
-}
-
-.one-desc-wrapper p strong {
-  display: block;
-  /* font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-weight: 100;
-  font-style: normal;
-  font-size: 86px;
-  letter-spacing: 0px;
-  text-transform: none;
-  line-height: 1.1em;
-  color: #fff;
-}
-
 /* phong */
 .three-jumbotron {
   display: flex;
@@ -312,14 +227,14 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 514px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
+  position: relative;
 }
-
 
 .three-card {
   min-height: 60%;
@@ -328,15 +243,6 @@ nav {
 
 .find-us {
   margin-bottom: 40px;
-}
-.three-color-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(33, 27, 23, 0.58);
-  z-index: 99;
 }
 
 .three-text {
@@ -353,4 +259,126 @@ nav {
 
 .three-card card {
   margin: 3px;
+}
+
+.three-color-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(33, 27, 23, 0.58);
+  z-index: 1;
+}
+
+/* Nav & Header */
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+nav {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-left: 5px;
+  padding: 15px !important;
+}
+
+.one-navbar-ul {
+  font-size: 14px;
+}
+
+.one-navbar-ul a {
+  color: white !important;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1em;
+}
+.one-navbar-ul a:hover {
+  color: #9c9999 !important;
+}
+
+.one-color-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(33, 27, 23, 0.58);
+  z-index: 1;
+}
+
+.one-desc-wrapper {
+  /* animation: feature-text-anim 0.75s ease-in-out; */
+  z-index: 0;
+  position: relative;
+  width: 100%;
+  max-width: 956px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.one-desc-wrapper p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  color: #b8b8b8;
+  margin: 20px auto;
+}
+
+.one-desc-wrapper p strong {
+  display: block;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 86px;
+  letter-spacing: 0px;
+  text-transform: none;
+  line-height: 1.1em;
+  color: #fff;
 }
